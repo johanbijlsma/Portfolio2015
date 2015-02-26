@@ -1,0 +1,326 @@
+@import "reset.scss";
+
+
+// variable for fonts
+
+$helvetica: 'Helvetica Neue', helvetica, 'Sans-serif';
+$lora: 'Lora', serif;
+$Patua: 'Patua One', cursive;
+$PTsans: 'PT Sans', sans-serif;
+$istok-web: 'Istok Web', sans-serif;
+
+
+// original colours:
+// Background colours with transparancy
+// $BGbase-color-shade: rgba(178, 176, 30, 0.5); //yellowish
+// $BGsecondary-color: rgba(42, 210, 255, 0.5);  //blue
+// $BGtertiary-color: rgba(204, 34, 90, 0.5);    //red
+// $BGaccent-color: rgba(178,3,61,0.8);          //dark-magenta
+
+// original colours:
+// colours
+// $base-color: rgb(253, 236, 16);         //yellowish
+// $base-color-shade: rgb(178, 176, 30);   //dark-yellow
+// $secondary-color: rgb(42, 210, 255);    //blue
+// $tertiary-color: rgb(204, 34, 90);      //red
+// $accent-color: rgb(178,3,61);           //dark-magenta
+
+// blue monochromatic colour palette 
+$base-color: rgb(0, 166, 255);         //navyblue
+$base-color-shade: rgb(0, 83, 127);   //dark-blue
+$secondary-color: rgb(76, 192, 255);    //lightblue
+$tertiary-color: rgb(38, 96, 127);      //greenish-blue
+$accent-color: rgb(0,132,204);           //blue
+
+
+$BGbase-color: rgba(0, 166, 255,0.5);          //navyblue
+$BGbase-color-shade: rgba(0, 83, 127, 0.5);   //dark-blue
+$BGsecondary-color: rgba(76, 192, 255, 0.5);    //lightblue
+$BGtertiary-color: rgba(38, 96, 127, 0.5);      //greenish-blu
+$BGaccent-color: rgba(0,132,204,0.8);            //blue
+
+.content-image{
+  float: right;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+  margin: 0 0.5em 1em 1em;
+}
+
+.wrapper.content{
+  padding: 1em 2em;
+} 
+
+section{
+  // min-height: 40em;
+  padding: 1em;
+  font-family: $PTsans;
+  line-height: 1.3em;
+}
+
+body{
+  font-family: $helvetica;
+  font-size: 80%;
+}
+
+header{
+  background: $BGaccent-color;
+  div.logo{
+    display: inline-block;
+    max-width: 200px;
+    font-size: 180%;
+    font-weight: 700;
+    font-family: $Patua;
+    color: #fff;
+      a:link, a:visited, a:focus{
+        color: #fff;
+        text-decoration: none;
+      }
+  }
+  .header-content{
+  display: inline-block; 
+  font-family: $Patua;
+  margin-left: 1em; 
+  color: #fff;
+  }
+  .wrapper{
+    margin-bottom: 0px;
+  }
+}
+
+nav{
+ li{
+  display: inline-block;
+  margin-right: 1em; 
+  min-width: 3em;
+  padding: 0 1em;  
+  }
+  a:link, a:visited,{
+  font-family: $PTsans;
+  color: $BGaccent-color;
+  text-decoration: none;
+  }
+  a:hover, a:focus{
+  font-weight: 700;
+ 
+  }
+  .wrapper{
+    margin-bottom: 0px;
+  }
+}
+
+/*section classes*/
+#intro{
+  @extend section;
+  background: $BGbase-color;
+    h2{
+    color: $base-color;
+  }
+
+}
+
+#work{
+  @extend section;
+  background: $BGsecondary-color;
+  h2{
+    color: $base-color;
+  }
+}
+
+#contact{
+  @extend section;
+  background: $BGaccent-color;
+  h2{
+    color: $base-color;
+  }
+  h1, p{
+    color: #fff;
+  }
+    ul{
+      text-align: center;
+    }
+    li{ display: inline-block;
+      min-width: 3em;
+      padding: 0 1em 0 3em;
+      background: #fff;
+      border-radius: 15px;
+      line-height: 2.5em;
+      box-shadow: 4px 4px $BGbase-color-shade;
+      margin:1em 0.2em;
+      &:hover{
+        background: $BGbase-color;
+        box-shadow: 4px 4px $base-color;
+        a:link, a:visited, a:focus{
+        color: #fff;}
+        a:hover{
+          color: #fff;
+        }
+      }
+    }
+   a:link, a:visited, a:focus{
+      color: $secondary-color;
+      text-decoration: none;
+      font-family: $PTsans;
+      font-size: 140%;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px $accent-color;
+       }
+
+}
+
+section h1{
+  font-size: 150%;
+  font-weight: 900;
+  line-height: 1.6em;
+  font-family: $Patua;
+}
+
+section h2{
+  font-size: 120%;
+  font-weight: 900;
+  line-height: 1.4em;
+  // color: $BGaccent-color;
+  font-family: $Patua;
+}
+
+.wrapper{
+  max-width: 800px;
+  margin: 0px auto 1em;
+  display: block;
+  background: rgba(0,0,0,0.2);
+  padding: 1em 0.5em;
+}
+
+.wrapper.title{
+    background: rgba(0,0,0,0.6);
+    box-shadow: -5px 0px rgba(0,0,0,0.8);
+      h1{
+        color: #fff;
+      }
+      h2{
+        color: #base-color;
+      }
+  }
+
+#intro .wrapper.content img{
+  @extend .content-image;
+  width: 140px;
+  border-radius: 50%;
+  border: 7px #fff solid;
+  transition: all 0.3s ease-in;
+}
+.wrapper p{
+  line-height: 1.5em;
+  font-size: 120%;
+}
+
+.inner-wrapper{
+  @extend .wrapper ;
+  box-shadow: -5px 0px rgba(0,0,0,0.8);
+  margin: 1em 2em;
+  background: rgba(255,255,255,0.5);
+
+  h3{
+    font-family: $Patua;
+    font-weight: 700;
+  }
+  p{
+    font-family: $PTsans;
+  }
+  img{
+    max-width: 75%;
+  }
+  div.link{
+    background: $BGtertiary-color;
+    color: #fff;
+    line-height: 2em;
+    padding: 0.2em 2em;
+    margin-bottom: 2em;
+    border: 1px solid $BGtertiary-color;
+
+    a:link, a:visited, a:focus{
+      color: #fff;
+      text-decoration: none;
+    }
+     &:hover{
+        border: 1px solid $BGtertiary-color;
+        background: #fff;
+        color: $tertiary-color;
+        border: 1px solid $BGtertiary-color;
+        a:link, a:visited, a:focus{
+        color: $tertiary-color;
+        font-weight: 700; }
+      }
+    }
+}
+
+.work{
+  list-style: outside; 
+  text-indent: 0;
+  margin-left: 3em;
+
+}
+
+.websites{
+  @extend .work ;
+    span{
+    color: $secondary-color;
+    font-size: 135%;
+
+  }
+}
+
+.design{
+  @extend .work ;
+    span{
+    color: $secondary-color;
+      font-size: 135%;
+
+  }
+}
+.various{
+  @extend .work ;
+    span{
+    color: $secondary-color;
+      font-size: 135%;
+
+  }
+}
+
+// Media queries
+@media (min-width: 780px){
+  section#intro{
+    min-height: 20em;
+  }
+
+}
+
+@media (max-width: 640px){
+  section#intro{
+    min-height: 20em;
+  }
+
+}
+
+@media (min-width: 640px){
+  #intro .content img{
+      width: 195px;
+      border-radius: 5%;
+      border: 1px #fff solid;
+      transition: all 0.3s ease-in;
+  }
+
+}
+
+@media (max-width: 480px){
+  section#intro{
+    min-height: 20em;
+
+  }
+
+}
+
+
+
+
+
+
+
