@@ -1,0 +1,45 @@
+// variables.scss
+
+@mixin contact-icon{
+	padding-left: 1.4em;
+	line-height: 2em;
+	background-size: 1.1em;
+}
+
+// variable for fonts
+
+$helvetica: 'Helvetica Neue', helvetica, 'Sans-serif';
+$lora: 'Lora', serif;
+$Patua: 'Patua One', cursive;
+$PTsans: 'PT Sans', sans-serif;
+$istok-web: 'Istok Web', sans-serif;
+
+
+// original colours:
+// Background colours with transparancy
+// $BGbase-color-shade: rgba(178, 176, 30, 0.5); //yellowish
+// $BGsecondary-color: rgba(42, 210, 255, 0.5);  //blue
+// $BGtertiary-color: rgba(204, 34, 90, 0.5);    //red
+// $BGaccent-color: rgba(178,3,61,0.8);          //dark-magenta
+
+// original colours:
+// colours
+// $base-color: rgb(253, 236, 16);         //yellowish
+// $base-color-shade: rgb(178, 176, 30);   //dark-yellow
+// $secondary-color: rgb(42, 210, 255);    //blue
+// $tertiary-color: rgb(204, 34, 90);      //red
+// $accent-color: rgb(178,3,61);           //dark-magenta
+
+// blue monochromatic colour palette 
+$base-color: rgb(0, 166, 255);         //navyblue
+$base-color-shade: rgb(0, 83, 127);   //dark-blue
+$secondary-color: rgb(76, 192, 255);    //lightblue
+$tertiary-color: rgb(38, 96, 127);      //greenish-blue
+$accent-color: rgb(0,132,204);           //blue
+
+
+$BGbase-color: rgba(0, 166, 255,0.5);          //navyblue
+$BGbase-color-shade: rgba(0, 83, 127, 0.5);   //dark-blue
+$BGsecondary-color: rgba(76, 192, 255, 0.5);    //lightblue
+$BGtertiary-color: rgba(38, 96, 127, 0.5);      //greenish-blu
+$BGaccent-color: rgba(0,132,204,0.8);            //blue

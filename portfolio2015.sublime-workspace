@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"Patua"
+			],
+			[
+				"PT",
+				"PTsans"
+			],
+			[
+				"P",
+				"PTsans"
+			],
+			[
+				"BG",
+				"BGbase-color-shade"
+			],
+			[
+				"fon",
+				"font-variant"
+			],
+			[
+				"lo",
+				"lora"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"dar",
+				"darkred"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"con",
+				"content-image"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"johan",
+				"johanbijlsma"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"sect",
+				"section-wrapper"
+			],
+			[
+				"sectio",
+				"section-wrapper1"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"footer",
+				"footer_content"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"RB",
+				"rgba()"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"link",
+				"link	Tag"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"li",
+				"list-style-position"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"page",
+				"page2"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"bl",
+				"blauw"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"grij",
+				"grijsIdea"
+			],
+			[
+				"gri",
+				"grijsMain"
+			],
+			[
+				"grijs",
+				"grijsFooter"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 141.0,
+		"selected_items":
+		[
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"paca",
+				"Package Control: Disable Package"
+			],
+			[
+				"colorc",
+				"Toggle Colorcode on this view"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"set sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pac up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"set scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"se ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set ",
+				"Set Syntax: JSON"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"e",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"col",
+				"Color Picker: Insert Color"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set le",
+				"Set Syntax: LESS"
+			],
+			[
+				"les",
+				"Set Syntax: LESS"
+			],
+			[
+				"pick",
+				"Color Picker: Insert Color"
+			],
+			[
+				"pi",
+				"Color Picker: Insert Color"
+			],
+			[
+				"colo",
+				"Color Picker: Insert Color"
+			],
+			[
+				"p",
+				"Package Control: Enable Package"
+			],
+			[
+				"hex",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"set syntax: h",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 447.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Johan_en_Rinske/Downloads/IcoMoon - 16 Icons/demo.html",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/Portfolio2015/images/linkedin.png",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/Portfolio2015/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Johan_en_Rinske/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/config.rb",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/sass/style.scss",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/index.html",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/sass/reset.scss",
+		"/Users/Johan_en_Rinske/Dropbox/Eigen-sites/johanbijlsma-v3/stylesheets/style.css",
+		"/Users/Johan_en_Rinske/Jekyll-site/feed.xml",
+		"/Users/Johan_en_Rinske/Jekyll-site/index.html",
+		"/Users/Johan_en_Rinske/Jekyll-site/_config.yml",
+		"/Users/Johan_en_Rinske/compass-try/sass/style.css",
+		"/Users/Johan_en_Rinske/Downloads/fairsail-fc (2).css",
+		"/Users/Johan_en_Rinske/Downloads/fairsail-fc.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/javascript_opdracht/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/domains/webopen.nu/public_html/.htaccess",
+		"/Users/Johan_en_Rinske/Dropbox/Sollicitatieopdracht appstudio/js/scripts.js",
+		"/Users/Johan_en_Rinske/Desktop/scripts.js",
+		"/Users/Johan_en_Rinske/Dropbox/Sollicitatieopdracht appstudio/images/noise_bg.png",
+		"/Users/Johan_en_Rinske/Dropbox/Sollicitatieopdracht appstudio/css/style_jb.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/smartHOTEL/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/smartHOTEL/index-oud.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/smartHOTEL/index-oud2.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/smartHOTEL/css/jquery.mobile.custom.structure.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/smartHOTEL/css/style_JB.css",
+		"/Users/Johan_en_Rinske/Dropbox/sollicitatie opdracht SmartHOTEL/style_JB.css",
+		"/Users/Johan_en_Rinske/Dropbox/sollicitatie opdracht SmartHOTEL/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/index.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/wp-content/themes/kennis/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/wp-config.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/wp-settings.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/kennis/page.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/kennis/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/kennis/header.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/kennis/footer.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/kennis/content.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/public_html/versie2/wp-content/themes/twentyeleven/content.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/less/style.less",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/footer.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/less/grid.less",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/less/fonts.less",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/css/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/css/grid.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/opdracht-1-travler/css/fonts.css",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/less/grid.less",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/less/fonts.less",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/index.html",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/less/style.less",
+		"/Users/Johan_en_Rinske/Dropbox/freelance/Sanne Popijus/footer/footer.html",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/less/grid.css",
+		"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/css/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/sidebar.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/page.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/single.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/content-page.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/image.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/header.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/content-single.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/content.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/javascript-sandbox/scripts.js",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/javascript-sandbox/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/javascript-sandbox/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/javascript-sandbox/test.xml",
+		"/Users/Johan_en_Rinske/Desktop/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/style.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/index.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/2.0/wp-content/themes/elim2-0/style_dark.css",
+		"/Users/Johan_en_Rinske/Dropbox/Wordpress Elim local/2.0/wp-content/themes/elim2-0/style_dark.css",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/paginas/agenda2.php",
+		"/Users/Johan_en_Rinske/Movies/We.Bought.a.Zoo.2011.1080p.Bluray.x264.anoXmous/We.Bought.A.Zoo.2011.Ned_DVD(25fps).srt",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/HTML/plain_HTML/index.html",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/2.0/wp-config.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/wp-content/themes/johanbijlsma/footer.php",
+		"/Users/Johan_en_Rinske/Library/Application Support/Flow/Editor/johanbijlsma.atwebpages.com/wp-content/themes/johanbijlsma/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contact",
+			"them",
+			"$secondary-color",
+			"secondary-color",
+			"class=",
+			"=",
+			"conten",
+			"wrapper-con",
+			"itro",
+			"int",
+			"span",
+			"into",
+			"intro",
+			"h2",
+			"rgb(",
+			"rgb",
+			"120",
+			"800",
+			"contact",
+			"footer",
+			"work",
+			"rgba",
+			"$accent-color",
+			"$tertiary-color",
+			"$secondary-color",
+			"$base-color",
+			"DESIGN",
+			"design",
+			"darkred",
+			"work",
+			"\n}",
+			"apexp",
+			"h2",
+			"style=\"width: 210.0px; height: 13.0px; background-color: #000000; background-color: rgba(0, 0, 0, 0); border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px\" ",
+			"style=\"width: 211.0px; height: 13.0px; background-color: #000000; background-color: rgba(0, 0, 0, 0); border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px\" ",
+			"if",
+			"id=\"top\"",
+			"box",
+			";\n",
+			"2",
+			"header",
+			"</span>",
+			"verwijder",
+			"<a href=\"#\"><span class=\"hidden\">verwijder artikel</span>",
+			"r artike",
+			"n>x",
+			"x",
+			"255",
+			"0",
+			"+",
+			"box",
+			"top",
+			"margin",
+			"full-width",
+			"half",
+			"content",
+			"\" ",
+			"content",
+			"20px",
+			"</select> ",
+			"<label for",
+			"			<",
+			"legend",
+			"class=\"ui-grid-a\"",
+			"class",
+			"eieren",
+			"Eieren",
+			"eieren",
+			"brood",
+			"Brood",
+			"brood",
+			"toast",
+			"Toast",
+			"toast",
+			"brood",
+			"Brood",
+			"brood",
+			"Brood",
+			"brood",
+			"Brood",
+			"brood",
+			"flip-2",
+			"Kamernummer",
+			"kamernummer",
+			"Kamernummer",
+			"kamernummer",
+			"em",
+			"data-role=\"content\"",
+			"\">",
+			"<div class=\"grootscherm\">\n			<h1>Alleen op groot scherm</h1>\n			<p>lorem </p>\n		</div>",
+			"</div> <!-- einde container -->\n",
+			"<div class=\"container\">\n",
+			"('../",
+			"aaargh",
+			"3000px",
+			"#4d0c80",
+			"0px",
+			"images",
+			"(im",
+			"url",
+			"//",
+			"min",
+			"©",
+			"media",
+			"2",
+			"em",
+			"verborgen",
+			"E",
+			"</em>",
+			"<em>",
+			"header",
+			"hidden",
+			"focus",
+			"menu",
+			"menu-main",
+			"focus",
+			"1s",
+			"ease",
+			"0",
+			"background-color",
+			"height",
+			"all",
+			"0.8s",
+			"8s",
+			"height",
+			"1s",
+			"background-color",
+			"0.5s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$BGaccent-color",
+			"$BGtertiary-color",
+			"$BGsecondary-color",
+			"$BGbase-color",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Johan_en_Rinske/Dropbox/Casus T-Mobile/opdracht1-TRAVLR_site/t-mobile_opdracht1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}

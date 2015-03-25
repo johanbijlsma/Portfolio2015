@@ -1,0 +1,33 @@
+// media-queries.scss
+
+@media (min-width: 780px){
+  section#intro{
+    min-height: 20em;
+  }
+
+}
+
+@media (max-width: 640px){
+  section#intro{
+    min-height: 20em;
+  }
+
+}
+
+@media (min-width: 640px){
+  #intro .content img{
+      width: 195px;
+      border-radius: 5%;
+      border: 1px #fff solid;
+      transition: all 0.3s ease-in;
+  }
+
+}
+
+@media (max-width: 480px){
+  section#intro{
+    min-height: 20em;
+
+  }
+
+}
