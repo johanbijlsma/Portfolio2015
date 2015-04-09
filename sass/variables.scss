@@ -6,11 +6,33 @@
 	background-size: 1.1em;
 }
 
-// variable for fonts
+@mixin hobby-bg{
+    transition: all 0.3s ease-in;
+ 
+	&:hover{
+        background-image: inherit;
+        background-color: rgba($base-color-shade, 0.4);
+        transition: all 0.3s ease-in;
+
+      }	
+}
+
+@mixin contact-links{
+      display: inline-block;
+      min-width: 3em;
+      padding: 1em 2em;
+      background: #fff;
+      border-radius: 15px;
+      line-height: 2.5em;
+      box-shadow: 4px 4px $BGbase-color-shade;
+      margin:1em 1.2em;
+
+}
+// variables for fonts
 
 $helvetica: 'Helvetica Neue', helvetica, 'Sans-serif';
 $lora: 'Lora', serif;
-$Patua: 'Patua One', cursive;
+$Patua: 'Patua One', serif;
 $PTsans: 'PT Sans', sans-serif;
 $istok-web: 'Istok Web', sans-serif;
 
@@ -36,6 +58,7 @@ $base-color-shade: rgb(0, 83, 127);   //dark-blue
 $secondary-color: rgb(76, 192, 255);    //lightblue
 $tertiary-color: rgb(38, 96, 127);      //greenish-blue
 $accent-color: rgb(0,132,204);           //blue
+$accent-color-red: rgb(204, 34, 90);  	//red
 
 
 $BGbase-color: rgba(0, 166, 255,0.5);          //navyblue

@@ -1,7 +1,9 @@
 @import "base.scss";
 
 
-
+strong{
+  font-weight: 900;
+}
 
 .content-image{
   float: right;
@@ -59,6 +61,7 @@ nav{
   margin-right: 1em; 
   min-width: 3em;
   padding: 0 1em;  
+  font-size: 1.4em;
   }
   a:link, a:visited,{
   font-family: $PTsans;
@@ -68,19 +71,48 @@ nav{
   a:hover, a:focus{
   font-weight: 700;
  
-  }
+  } 
   .wrapper{
     margin-bottom: 0px;
   }
 }
 
-/*section classes*/
+/*section ID's*/
 #intro{
   @extend section;
-  background: $BGbase-color;
+  background-color: $BGbase-color;
+  background: url(../images/clouds.jpg) top center;
+  background-size: cover;
+  color: #fff;
     h2{
     color: $base-color;
   }
+    .tags{
+      ul{
+        li{
+          @include contact-links;
+          color: $base-color;
+          font-family: $PTsans;
+          font-size: 90%;
+          font-weight: 700;
+          padding: 0.1em 0.8em 0.1em 2.4em;
+          text-align: center;
+          margin: 0.5em;
+          }
+        li:before{
+          content: "";
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: rgba(0,0,0,0.1);
+          border-radius: 50%;
+          border: 2px #fff solid;
+          position: absolute;
+          margin: 5px -20px;
+          box-shadow: 1px 1px 3px inset;
+        }
+      }
+    }
 
 }
 
@@ -89,6 +121,66 @@ nav{
   background: $BGsecondary-color;
   h2{
     color: $base-color;
+  }
+}
+
+#freetime{
+  @extend section;
+  background: $BGtertiary-color;
+  h2{
+    color: $base-color;
+  }
+  ul{
+    background:#555;
+    // border-radius: 30px 10px;
+    color: #fff;
+
+
+    li{
+      padding: 0 1em;
+      margin: 1em;
+      border: 3px solid #fff;
+      // border-radius: 0 0 30px 10px;
+      min-height: 10em;
+      vertical-align: bottom;
+      background: $base-color-shade;
+      box-shadow: 0px -12px 20px rgba(0,0,0,0.5) inset;
+      min-width: 120px;
+      display: inline-block;
+      text-shadow: 1px 1px 3px #000;
+
+    }
+    .openhaard{
+      background: url(../images/openhaard.jpeg) center center no-repeat;
+      background-size: cover;
+      @include hobby-bg;
+
+    }
+    .reizen{
+      background: url(../images/backpacking.jpg) center center no-repeat;
+      background-size: cover;
+      @include hobby-bg;
+
+    }
+    .wandelen{
+      background: url(../images/pieterpad.jpeg) center center no-repeat;
+      background-size: cover;
+      @include hobby-bg;
+
+
+    }
+    .muziek{
+      background: url(../images/pianoklavier.jpeg) center center no-repeat;
+      background-size: cover;
+      @include hobby-bg;
+
+    }
+    .volleyball{
+      background: url(../images/volleybal.jpeg) center center no-repeat;
+      background-size: cover;
+      @include hobby-bg;
+
+    }
   }
 }
 
@@ -104,14 +196,8 @@ nav{
     ul{
       text-align: center;
     }
-    li{ display: inline-block;
-      min-width: 3em;
-      padding: 1em 2em;
-      background: #fff;
-      border-radius: 15px;
-      line-height: 2.5em;
-      box-shadow: 4px 4px $BGbase-color-shade;
-      margin:1em 1.2em;
+    li{ 
+      @include contact-links;
       &:hover{
         background: $BGbase-color;
         box-shadow: 4px 4px $base-color;
@@ -200,10 +286,14 @@ section h2{
   box-shadow: -5px 0px rgba(0,0,0,0.8);
   margin: 1em 2em;
   background: rgba(255,255,255,0.5);
-
+  a:link, a:visited, a:focus{
+    color: #fff;
+    text-decoration: none;
+    }
   h3{
     font-family: $Patua;
     font-weight: 700;
+    font-size: 110%;
   }
   p{
     font-family: $PTsans;
@@ -218,22 +308,51 @@ section h2{
     padding: 0.2em 2em;
     margin-bottom: 2em;
     border: 1px solid $BGtertiary-color;
+    max-height: 2.5em;
 
-    a:link, a:visited, a:focus{
-      color: #fff;
-      text-decoration: none;
-    }
      &:hover{
         border: 1px solid $BGtertiary-color;
-        background: #fff;
-        color: $tertiary-color;
+        background: $base-color-shade;
+        color: #fff;
         border: 1px solid $BGtertiary-color;
+        cursor: pointer;
         a:link, a:visited, a:focus{
-        color: $tertiary-color;
-        font-weight: 700; }
+        color: #fff;
+        font-weight: 700; 
+        }
+      }
+    }
+    ul.detail{
+      li.detail-content{
+        background-color: $BGbase-color;
+        color: #fff;
+        padding: 1em 2em 1em 3em;
+        margin: 1em;
+        max-height: 300px;
+
+      }
+      .flex{
+        display: flex;
+      }
+
+    }
+    .half{
+      max-width: 45%;
+     }
+    .list-image{
+      float: right;
+      max-width: 45%;
+      padding-right: 2em;
+      img{
+        max-width: 200px;
+        text-align: right;
       }
     }
 }
+
+.hidden{
+  display: none;
+  }
 
 .work{
   list-style: outside; 
