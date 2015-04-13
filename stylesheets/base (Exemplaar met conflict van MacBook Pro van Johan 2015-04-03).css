@@ -83,11 +83,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border: 1px #fff solid;
     transition: all 0.3s ease-in;
   }
+
+  /* line 24, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image {
+    float: none;
+  }
+
+  /* line 27, ../sass/media-queries.scss */
+  div.link strong {
+    display: none;
+  }
 }
 @media (max-width: 480px) {
-  /* line 28, ../sass/media-queries.scss */
+  /* line 35, ../sass/media-queries.scss */
   section#intro {
     min-height: 20em;
+  }
+
+  /* line 39, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image img {
+    max-width: 120px;
   }
 }
 /* Welcome to Compass. Use this file to write IE specific override styles.

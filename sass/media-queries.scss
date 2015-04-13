@@ -24,6 +24,12 @@
   #work .inner-wrapper .list-image{
     float: none;
   }
+  .inner-wrapper div.link strong{
+    display: none;
+  }
+  .inner-wrapper ul.detail .flex{
+    display: block;
+  }
 
 
 }
