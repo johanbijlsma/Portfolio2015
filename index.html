@@ -5,20 +5,23 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 <!-- <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Istok+Web:400,700' rel='stylesheet' type='text/css'> -->
 <link href='http://fonts.googleapis.com/css?family=PT+Sans|Patua+One' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="javascripts/function.js"> </script>				
+
 </head>
 <body>
+	<a href="https://github.com/johanbijlsma"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 	<header>
 		<div class="wrapper">
-		<div class="logo"><a href="index.html">Johan Bijlsma</a></div>
-		<div class="header-content">
-			<p>Portfolio and online Businesscard of undersigned</p>
-			<p>View my work, or get in Touch...</p>
-		</div>	
+			<div class="logo"><a href="index.html">Johan Bijlsma</a></div>
+			<div class="header-content">
+				<p>Portfolio and online Businesscard of undersigned</p>
+				<p>View my work, or get in Touch...</p>
+			</div>	
 		</div>
 	</header>
 	<nav class="wrapper">
 		<ul>
-			<li><a href="index.html"> home</a></li>
 			<li><a href="#intro"> intro</a></li>
 			<li><a href="#work"> work</a></li>
 			<li><a href="#contact"> contact</a></li>
@@ -36,6 +39,19 @@
 			<p>I'm a Front-end Developer who is full off excitement to work with new technologies. Also I'm capable of putting myself in the shoes of both the client, and the end user.</p>
 			<p>I excel in translating concepts into Mockups and fully responsive websites. Besides building out sites and pages, I also have experience in building and testing Accessible sites (according to the WCAG2.0 standard).</p>
 			<p>Off course I can work with Adobe software like Photoshop and Illustrator. Coding I do with HTML5, CSS3 , Compass / SASS, LESS and Javascript (Frameworks like jQuery and jQuery Mobile).</p>
+			<div class="inner-wrapper tags">
+				<p><strong>Tags related to my work and skills:</strong></p>
+				<ul>
+							<li class="tag">HTML5</li>
+							<li class="tag">CSS</li>
+							<li class="tag">jQuery</li>
+							<li class="tag">SASS</li>
+							<li class="tag">Compass</li>
+							<li class="tag">Bootstrap</li>
+							<li class="tag">Photoshop</li>
+							<li class="tag">GIT</li>
+						</ul>		
+			</div>
 		</div>
 	</section>
 
@@ -46,17 +62,36 @@
 		</div>
 		<div class="wrapper content">
 			<h1>What I've done so far...</h1>
-			<p>Through the years I've worked on donzens off projects, both as an employee, and as a Freelancer. Her you find a collctions of the work I've done. I catagorized them as <strong>Websites</strong>, <strong>Design</strong> and <strong>Various other work</strong> </p>
+			<p>Through the years I've worked on dozens off projects, both as an employee, and as a Freelancer. Here you find a collection of the work I've done. I have catagorized them as <strong>Websites</strong><!-- , <strong>Design</strong> --> and <strong>Various other work</strong> </p>
 			<div class="inner-wrapper">	
 				<h3>Websites</h3>
-				<p>here is a collection of sites I have made:</p>
+				<p>Here is a collection of sites I have made... some of them were designed by me, others build or the combination of the two...</p>
 				<ul>
 					<li class="websites"><span>Inclusief Advies</span>
-						<p>This was a freelance assignment to make their current website more accessible.</p><img src="images/inclussief-advies-thumb.png" alt="screenshot website inclusiefadvies.nl" title="screenshot website inclusiefadvies.nl"><br>
-						<div class="link"><strong>link:</strong> <a href="http://www.inclusiefadvies.nl">inclusiefadvies.nl</a></div></li>
-					<li class="websites"><span>Catapult</span><p>At my latest job, I had the opportunity to work for the Catapult websites of Innovate UK, The British innovations catalyst. </p><img src="images/sa-catapult-thumb.png" alt="screenshot website Satellite Applications Catapult" title	="screenshot website Satellite Applications Catapult"> <br>
-						<div class="link"><strong>link:</strong> <a href="https://sa.catapult.org.uk">sa.catapult.org.uk</a></div></li>
-					<li class="websites"><span>Compas Asbestmanagement</span><p>For this company specialised in asbestos analysis and removal, I made their first site and developed in cooperation with the business owner their comperate Identity</p></li>
+						<p>This was a freelance assignment to make their current website more accessible.</p> 
+						<div class="link IA" >click here to read more about this project</div>
+					</li>
+						<ul class="detail IA hidden">
+							<li class="detail-content">	<p>This was a freelance assignment to make their current website more accessible.</p>
+								<div class="flex">
+							<img src="images/inclussief-advies-thumb.png" alt="screenshot website inclusiefadvies.nl" title="screenshot website inclusiefadvies.nl">	
+							<div class="link"><strong>link:</strong> <a href="http://www.inclusiefadvies.nl">inclusiefadvies.nl</a></div>
+							</div>
+						</li>
+						</ul>
+					<li class="websites"><span>Catapult</span><p>At my latest job, I had the opportunity to work for the Catapult websites of Innovate UK, The British innovations catalyst. </p>
+						<div class="link CA">click here to read more about this project</div>
+					<ul class="detail CA hidden">
+							<li class="detail-content">	<p>At my latest job, I had the opportunity to work for the Catapult websites of Innovate UK, The British innovations catalyst. </p>
+								<div class="flex">
+							<img src="images/sa-catapult-thumb.png" alt="screenshot website Satellite Applications Catapult" title="screenshot website Satellite Applications Catapult">	
+							<div class="link"><strong>link:</strong> <a href="https://sa.catapult.org.uk">sa.catapult.org.uk</a></div>
+							</div>
+						</li>
+						</ul>
+						<!-- <img src="images/sa-catapult-thumb.png" alt="screenshot website Satellite Applications Catapult" title	="screenshot website Satellite Applications Catapult"> <br>
+						<div class="link"><strong>link:</strong> <a href="https://sa.catapult.org.uk">sa.catapult.org.uk</a></div></li> -->
+					<!-- <li class="websites"><span>Compas Asbestmanagement</span><p>For this company specialised in asbestos analysis and removal, I made their first site and developed in cooperation with the business owner their comperate Identity</p></li> -->
 				</ul>	
 			</div>
 				<!-- <div class="inner-wrapper">	
@@ -72,21 +107,41 @@
 
 				<div class="inner-wrapper">	
 				<h3>Various other work</h3>
-				<p>here is a collection of Various other work I have made. Most of these are on Github, or live inside my own envirements</p>
+				<p>Here is a collection of Various other work I have made. Most of these are on Github, or live inside my own envirements</p>
 					<ul>
 					<li class="various"><span>RWD-iFrame</span><p>For a work situation we needed to know how to make a iframe responsive in the cause were you would have access to both the iframe content, as to the site that is loaded in the frame. The live demo can be found in the link below:
-					 <div class="link"><a href="http://johanbijlsma.atwebpages.com/RWD-iframe/">RWD-iframe live demo</a></div>
+					<div class="list-image"><img src="images/github-logo.png" alt="Github logo"></div>
+					 <a href="http://johanbijlsma.atwebpages.com/RWD-iframe/"><div class="link half">RWD-iframe live demo</div></a>
 					 <p>And here is a link the repository on Github:</p>
-					  <div class="link"><a href="http://johanbijlsma.github.io/RWD-iframe/">RWD-iframe on Github</a></div><p>
+					  <a href="http://johanbijlsma.github.io/RWD-iframe/"><div class="link half">RWD-iframe on Github</div></a><p>
 					</li>
-					<li class="various"><span>Codepen account</span><p>Here is a link to my Codepen.io acount. Here I do quick pens to try to solve different scenarios. The link can be found in the link below:<div class="link"><a href="http://codepen.io/johanbijlsma/">Codepen profile</a></div> </p></li>
-					<li class="various"><span>JQuery exercise</span><p>To gain more expirience with jQuery, I made a small exercise, where you can close articles</p>
-						<div class="link"><a href="http://johanbijlsma.atwebpages.com/javascript_opdracht/">JQuery exercise</a></div></li>
+					<li class="various"><span>Codepen account</span><p>Here is a link to my Codepen.io acount. Here I do quick pens to try to solve different scenarios. The link can be found in the link below:<div class="list-image"><img src="images/codepen_logo.png" alt="Codepen.io logo"></div><a href="http://codepen.io/johanbijlsma/"><div class="link half">Codepen profile</div></a> </p></li>
+					<li class="various"><span>JQuery exercise</span><p>To gain more experience with jQuery, I have made a small exercise, where you can close selected articles</p>
+						<a href="http://johanbijlsma.atwebpages.com/javascript_opdracht/"><div class="link">JQuery exercise</div></a></li>
 <!-- 					<li class="various"><span>VARIOUS</span></li>
  -->				</ul>
 			</div>	
 		</div>
 	</section> 
+
+<section id="freetime">
+		<div class="wrapper title">
+			<h1>Free time</h1>
+			<h2>What I do after work</h2>
+		</div>
+		<div class="wrapper content">
+			<h1>Hobbies and other things to do</h1>
+			<p>In my spare time I enjoy a lot of different things. In the list below you can find a couple of examples</p>
+			<ul>
+				<li class="hobbies muziek">Making and writing music</li>
+				<li class="hobbies wandelen">Hiking</li>
+				<li class="hobbies reizen">Traveling the world</li>
+				<li class="hobbies volleyball">Playing Volleyball</li>
+				<li class="hobbies openhaard">Sitting by the fireplace</li>
+			</ul>
+		</div>
+	</section>
+
 
 		<section id="contact">
 		<div class="wrapper title">
