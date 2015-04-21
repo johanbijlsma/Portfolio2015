@@ -11,6 +11,15 @@
   section#intro{
     min-height: 20em;
   }
+    #work .inner-wrapper .list-image{
+    float: none;
+  }
+  .inner-wrapper div.link strong{
+    display: none;
+  }
+  .inner-wrapper ul.detail .flex{
+    display: block;
+  }
 
 }
 
@@ -21,15 +30,7 @@
       border: 1px #fff solid;
       transition: all 0.3s ease-in;
   }
-  #work .inner-wrapper .list-image{
-    float: none;
-  }
-  .inner-wrapper div.link strong{
-    display: none;
-  }
-  .inner-wrapper ul.detail .flex{
-    display: block;
-  }
+
 
 
 }

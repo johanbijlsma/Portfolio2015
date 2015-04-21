@@ -74,9 +74,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   section#intro, #intro {
     min-height: 20em;
   }
+
+  /* line 14, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image {
+    float: none;
+  }
+
+  /* line 17, ../sass/media-queries.scss */
+  .inner-wrapper div.link strong {
+    display: none;
+  }
+
+  /* line 20, ../sass/media-queries.scss */
+  .inner-wrapper ul.detail .flex {
+    display: block;
+  }
 }
 @media (min-width: 640px) {
-  /* line 18, ../sass/media-queries.scss */
+  /* line 27, ../sass/media-queries.scss */
   #intro .content img {
     width: 195px;
     border-radius: 5%;
@@ -85,9 +100,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media (max-width: 480px) {
-  /* line 28, ../sass/media-queries.scss */
+  /* line 39, ../sass/media-queries.scss */
   section#intro, #intro {
     min-height: 20em;
+  }
+
+  /* line 43, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image img {
+    max-width: 120px;
   }
 }
 /* Welcome to Compass. Use this file to write IE specific override styles.
@@ -99,42 +119,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 4, ../sass/style.scss */
+/* line 3, ../sass/style.scss */
 strong {
   font-weight: 900;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 .content-image, #intro .wrapper.content img, #intro .content.inner-wrapper img {
   float: right;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   margin: 0 0.5em 1em 1em;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 .wrapper.content, .content.inner-wrapper {
   padding: 1em 2em;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 section, #intro, #work, #freetime, #contact {
   padding: 1em;
   font-family: "PT Sans", sans-serif;
   line-height: 1.3em;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 body {
   font-family: "Helvetica Neue", helvetica, "Sans-serif";
   font-size: 80%;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 header {
   background: #00537f;
   box-shadow: 0px -12px 20px rgba(0, 0, 0, 0.5) inset;
 }
-/* line 34, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 header div.logo {
   display: inline-block;
   max-width: 200px;
@@ -144,24 +164,24 @@ header div.logo {
   color: #fff;
   padding-left: 0.5em;
 }
-/* line 42, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 header div.logo a:link, header div.logo a:visited, header div.logo a:focus {
   color: #fff;
   text-decoration: none;
 }
-/* line 47, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 header .header-content {
   display: inline-block;
   font-family: "Patua One", serif;
   margin-left: 1em;
   color: #fff;
 }
-/* line 53, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 header .wrapper, header .inner-wrapper {
   margin-bottom: 0px;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 nav li {
   display: inline-block;
   margin-right: 1em;
@@ -169,34 +189,34 @@ nav li {
   padding: 0 1em;
   font-size: 1.4em;
 }
-/* line 66, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 nav a:link, nav a:visited {
   font-family: "PT Sans", sans-serif;
   color: rgba(0, 132, 204, 0.8);
   text-decoration: none;
 }
-/* line 71, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 nav a:hover, nav a:focus {
   font-weight: 700;
 }
-/* line 75, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 nav .wrapper, nav .inner-wrapper {
   margin-bottom: 0px;
 }
 
 /*section ID's*/
-/* line 81, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 #intro {
   background-color: rgba(0, 166, 255, 0.5);
-  background: url(../images/clouds.jpg) top center;
+  background: url(../images/clouds-compressor.jpg) top center;
   background-size: cover;
   color: #fff;
 }
-/* line 87, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 #intro h2 {
   color: #00a6ff;
 }
-/* line 92, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #intro .tags ul li {
   display: inline-block;
   min-width: 3em;
@@ -214,7 +234,7 @@ nav .wrapper, nav .inner-wrapper {
   text-align: center;
   margin: 0.5em;
 }
-/* line 102, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 #intro .tags ul li:before {
   content: "";
   display: block;
@@ -228,29 +248,29 @@ nav .wrapper, nav .inner-wrapper {
   box-shadow: 1px 1px 3px inset;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 #work {
   background: rgba(76, 192, 255, 0.5);
 }
-/* line 122, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 #work h2 {
   color: #00a6ff;
 }
 
-/* line 127, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 #freetime {
   background: rgba(38, 96, 127, 0.5);
 }
-/* line 130, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 #freetime h2 {
   color: #00a6ff;
 }
-/* line 133, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 #freetime ul {
   background: #555;
   color: #fff;
 }
-/* line 139, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 #freetime ul li {
   padding: 0 1em;
   margin: 1em;
@@ -261,61 +281,67 @@ nav .wrapper, nav .inner-wrapper {
   box-shadow: 0px -12px 20px rgba(0, 0, 0, 0.5) inset;
   min-width: 120px;
   display: inline-block;
+  text-shadow: 1px 1px 3px #000;
 }
 /* line 152, ../sass/style.scss */
 #freetime ul .openhaard {
   background: url(../images/openhaard.jpeg) center center no-repeat;
   background-size: cover;
+  transition: all 0.3s ease-in;
 }
-/* line 10, ../sass/variables.scss */
+/* line 12, ../sass/variables.scss */
 #freetime ul .openhaard:hover {
   background-image: inherit;
   background-color: rgba(0, 83, 127, 0.4);
-  transition: background 1s linear;
+  transition: all 0.3s ease-in;
 }
 /* line 158, ../sass/style.scss */
 #freetime ul .reizen {
   background: url(../images/backpacking.jpg) center center no-repeat;
   background-size: cover;
+  transition: all 0.3s ease-in;
 }
-/* line 10, ../sass/variables.scss */
+/* line 12, ../sass/variables.scss */
 #freetime ul .reizen:hover {
   background-image: inherit;
   background-color: rgba(0, 83, 127, 0.4);
-  transition: background 1s linear;
+  transition: all 0.3s ease-in;
 }
 /* line 164, ../sass/style.scss */
 #freetime ul .wandelen {
   background: url(../images/pieterpad.jpeg) center center no-repeat;
   background-size: cover;
+  transition: all 0.3s ease-in;
 }
-/* line 10, ../sass/variables.scss */
+/* line 12, ../sass/variables.scss */
 #freetime ul .wandelen:hover {
   background-image: inherit;
   background-color: rgba(0, 83, 127, 0.4);
-  transition: background 1s linear;
+  transition: all 0.3s ease-in;
 }
 /* line 171, ../sass/style.scss */
 #freetime ul .muziek {
   background: url(../images/pianoklavier.jpeg) center center no-repeat;
   background-size: cover;
+  transition: all 0.3s ease-in;
 }
-/* line 10, ../sass/variables.scss */
+/* line 12, ../sass/variables.scss */
 #freetime ul .muziek:hover {
   background-image: inherit;
   background-color: rgba(0, 83, 127, 0.4);
-  transition: background 1s linear;
+  transition: all 0.3s ease-in;
 }
 /* line 177, ../sass/style.scss */
 #freetime ul .volleyball {
   background: url(../images/volleybal.jpeg) center center no-repeat;
   background-size: cover;
+  transition: all 0.3s ease-in;
 }
-/* line 10, ../sass/variables.scss */
+/* line 12, ../sass/variables.scss */
 #freetime ul .volleyball:hover {
   background-image: inherit;
   background-color: rgba(0, 83, 127, 0.4);
-  transition: background 1s linear;
+  transition: all 0.3s ease-in;
 }
 
 /* line 186, ../sass/style.scss */

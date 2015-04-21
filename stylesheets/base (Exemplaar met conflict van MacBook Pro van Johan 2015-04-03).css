@@ -74,33 +74,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   section#intro {
     min-height: 20em;
   }
+
+  /* line 14, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image {
+    float: none;
+  }
+
+  /* line 17, ../sass/media-queries.scss */
+  .inner-wrapper div.link strong {
+    display: none;
+  }
+
+  /* line 20, ../sass/media-queries.scss */
+  .inner-wrapper ul.detail .flex {
+    display: block;
+  }
 }
 @media (min-width: 640px) {
-  /* line 18, ../sass/media-queries.scss */
+  /* line 27, ../sass/media-queries.scss */
   #intro .content img {
     width: 195px;
     border-radius: 5%;
     border: 1px #fff solid;
     transition: all 0.3s ease-in;
   }
-
-  /* line 24, ../sass/media-queries.scss */
-  #work .inner-wrapper .list-image {
-    float: none;
-  }
-
-  /* line 27, ../sass/media-queries.scss */
-  div.link strong {
-    display: none;
-  }
 }
 @media (max-width: 480px) {
-  /* line 35, ../sass/media-queries.scss */
+  /* line 39, ../sass/media-queries.scss */
   section#intro {
     min-height: 20em;
   }
 
-  /* line 39, ../sass/media-queries.scss */
+  /* line 43, ../sass/media-queries.scss */
   #work .inner-wrapper .list-image img {
     max-width: 120px;
   }

@@ -9,6 +9,9 @@ $(function() {
 		});
 
 
+	$("li.work a").click(function(){
+		$("#work").slideDown(1000);
+	})
 
 
 
