@@ -11,6 +11,9 @@
   section#intro{
     min-height: 20em;
   }
+   #work .inner-wrapper .list-image{
+    float: none;
+  }
 
 }
 
@@ -21,9 +24,9 @@
       border: 1px #fff solid;
       transition: all 0.3s ease-in;
   }
-  #work .inner-wrapper .list-image{
-    float: none;
-  }
+  // #work .inner-wrapper .list-image{
+  //   float: none;
+  // }
 
 
 }

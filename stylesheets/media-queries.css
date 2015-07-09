@@ -9,9 +9,14 @@
   section#intro {
     min-height: 20em;
   }
+
+  /* line 14, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image {
+    float: none;
+  }
 }
 @media (min-width: 640px) {
-  /* line 18, ../sass/media-queries.scss */
+  /* line 21, ../sass/media-queries.scss */
   #intro .content img {
     width: 195px;
     border-radius: 5%;
@@ -20,8 +25,13 @@
   }
 }
 @media (max-width: 480px) {
-  /* line 28, ../sass/media-queries.scss */
+  /* line 35, ../sass/media-queries.scss */
   section#intro {
     min-height: 20em;
+  }
+
+  /* line 39, ../sass/media-queries.scss */
+  #work .inner-wrapper .list-image img {
+    max-width: 120px;
   }
 }
