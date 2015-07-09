@@ -87,6 +87,9 @@ nav{
     color: $base-color;
   }
     .tags{
+      strong{
+        color: $accent-color-red;
+      }
       ul{
         li{
           @include contact-links;
@@ -125,6 +128,38 @@ nav{
 
 #freetime{
   @extend section;
+  .hobbies-animation{
+    min-height: 350px;
+    width: 100%;
+    background: url(../images/hobbies_guitar.jpg) center center;
+    background-size: cover;
+    animation:  hobbies 15s infinite;
+    margin: 20px 0;
+  }
+
+@keyframes hobbies{
+  0%{
+      background: url(../images/hobbies_guitar.jpg) center center;
+    }
+
+     25%{
+      background: url(../images/hobbies_travel.jpg) center center;
+    }
+
+     50%{
+      background: url(../images/hobbies_piano-keys.jpg) center center;
+    }
+
+     75%{
+      background: url(../images/hobbies_hiking.jpg) center center;
+    }
+
+    100%{
+      background: url(../images/hobbies_drums.jpg) center center;
+    }
+
+  }
+  
   background: $BGtertiary-color;
   h2{
     color: $base-color;
@@ -363,7 +398,7 @@ section h2{
 .websites{
   @extend .work ;
     span{
-    color: $secondary-color;
+    color: $accent-color-red;
     font-size: 135%;
 
   }
@@ -372,7 +407,7 @@ section h2{
 .design{
   @extend .work ;
     span{
-    color: $secondary-color;
+    color: $accent-color-red;
       font-size: 135%;
 
   }
@@ -380,7 +415,7 @@ section h2{
 .various{
   @extend .work ;
     span{
-    color: $secondary-color;
+    color: $accent-color-red;
       font-size: 135%;
 
   }

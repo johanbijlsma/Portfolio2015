@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, #intro, #work, #freetime, #contact, summary {
   display: block;
 }
@@ -79,6 +79,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #work .inner-wrapper .list-image {
     float: none;
   }
+<<<<<<< HEAD
 
   /* line 17, ../sass/media-queries.scss */
   .inner-wrapper div.link strong {
@@ -92,6 +93,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media (min-width: 640px) {
   /* line 27, ../sass/media-queries.scss */
+=======
+}
+@media (min-width: 640px) {
+  /* line 21, ../sass/media-queries.scss */
+>>>>>>> master
   #intro .content img {
     width: 195px;
     border-radius: 5%;
@@ -100,12 +106,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media (max-width: 480px) {
+<<<<<<< HEAD
   /* line 39, ../sass/media-queries.scss */
+=======
+  /* line 35, ../sass/media-queries.scss */
+>>>>>>> master
   section#intro, #intro {
     min-height: 20em;
   }
 
+<<<<<<< HEAD
   /* line 43, ../sass/media-queries.scss */
+=======
+  /* line 39, ../sass/media-queries.scss */
+>>>>>>> master
   #work .inner-wrapper .list-image img {
     max-width: 120px;
   }
@@ -217,6 +231,13 @@ nav .wrapper, nav .inner-wrapper {
   color: #00a6ff;
 }
 /* line 91, ../sass/style.scss */
+<<<<<<< HEAD
+=======
+#intro .tags strong {
+  color: #cc225a;
+}
+/* line 95, ../sass/style.scss */
+>>>>>>> master
 #intro .tags ul li {
   display: inline-block;
   min-width: 3em;
@@ -234,7 +255,11 @@ nav .wrapper, nav .inner-wrapper {
   text-align: center;
   margin: 0.5em;
 }
+<<<<<<< HEAD
 /* line 101, ../sass/style.scss */
+=======
+/* line 105, ../sass/style.scss */
+>>>>>>> master
 #intro .tags ul li:before {
   content: "";
   display: block;
@@ -248,15 +273,24 @@ nav .wrapper, nav .inner-wrapper {
   box-shadow: 1px 1px 3px inset;
 }
 
+<<<<<<< HEAD
 /* line 118, ../sass/style.scss */
 #work {
   background: rgba(76, 192, 255, 0.5);
 }
 /* line 121, ../sass/style.scss */
+=======
+/* line 122, ../sass/style.scss */
+#work {
+  background: rgba(76, 192, 255, 0.5);
+}
+/* line 125, ../sass/style.scss */
+>>>>>>> master
 #work h2 {
   color: #00a6ff;
 }
 
+<<<<<<< HEAD
 /* line 126, ../sass/style.scss */
 #freetime {
   background: rgba(38, 96, 127, 0.5);
@@ -266,11 +300,52 @@ nav .wrapper, nav .inner-wrapper {
   color: #00a6ff;
 }
 /* line 132, ../sass/style.scss */
+=======
+/* line 130, ../sass/style.scss */
+#freetime {
+  background: rgba(38, 96, 127, 0.5);
+}
+/* line 132, ../sass/style.scss */
+#freetime .hobbies-animation {
+  min-height: 350px;
+  width: 100%;
+  background: url(../images/hobbies_guitar.jpg) center center;
+  background-size: cover;
+  animation: hobbies 15s infinite;
+  margin: 20px 0;
+}
+@keyframes hobbies {
+  0% {
+    background: url(../images/hobbies_guitar.jpg) center center;
+  }
+  25% {
+    background: url(../images/hobbies_travel.jpg) center center;
+  }
+  50% {
+    background: url(../images/hobbies_piano-keys.jpg) center center;
+  }
+  75% {
+    background: url(../images/hobbies_hiking.jpg) center center;
+  }
+  100% {
+    background: url(../images/hobbies_drums.jpg) center center;
+  }
+}
+/* line 165, ../sass/style.scss */
+#freetime h2 {
+  color: #00a6ff;
+}
+/* line 168, ../sass/style.scss */
+>>>>>>> master
 #freetime ul {
   background: #555;
   color: #fff;
 }
+<<<<<<< HEAD
 /* line 138, ../sass/style.scss */
+=======
+/* line 174, ../sass/style.scss */
+>>>>>>> master
 #freetime ul li {
   padding: 0 1em;
   margin: 1em;
@@ -283,7 +358,7 @@ nav .wrapper, nav .inner-wrapper {
   display: inline-block;
   text-shadow: 1px 1px 3px #000;
 }
-/* line 152, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 #freetime ul .openhaard {
   background: url(../images/openhaard.jpeg) center center no-repeat;
   background-size: cover;
@@ -295,7 +370,7 @@ nav .wrapper, nav .inner-wrapper {
   background-color: rgba(0, 83, 127, 0.4);
   transition: all 0.3s ease-in;
 }
-/* line 158, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 #freetime ul .reizen {
   background: url(../images/backpacking.jpg) center center no-repeat;
   background-size: cover;
@@ -307,7 +382,7 @@ nav .wrapper, nav .inner-wrapper {
   background-color: rgba(0, 83, 127, 0.4);
   transition: all 0.3s ease-in;
 }
-/* line 164, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 #freetime ul .wandelen {
   background: url(../images/pieterpad.jpeg) center center no-repeat;
   background-size: cover;
@@ -319,7 +394,7 @@ nav .wrapper, nav .inner-wrapper {
   background-color: rgba(0, 83, 127, 0.4);
   transition: all 0.3s ease-in;
 }
-/* line 171, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 #freetime ul .muziek {
   background: url(../images/pianoklavier.jpeg) center center no-repeat;
   background-size: cover;
@@ -331,7 +406,7 @@ nav .wrapper, nav .inner-wrapper {
   background-color: rgba(0, 83, 127, 0.4);
   transition: all 0.3s ease-in;
 }
-/* line 177, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 #freetime ul .volleyball {
   background: url(../images/volleybal.jpeg) center center no-repeat;
   background-size: cover;
@@ -344,23 +419,23 @@ nav .wrapper, nav .inner-wrapper {
   transition: all 0.3s ease-in;
 }
 
-/* line 186, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 #contact {
   background: rgba(0, 132, 204, 0.8);
 }
-/* line 189, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 #contact h2 {
   color: #00a6ff;
 }
-/* line 192, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 #contact h1, #contact p {
   color: #fff;
 }
-/* line 195, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #contact ul {
   text-align: center;
 }
-/* line 198, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 #contact li {
   display: inline-block;
   min-width: 3em;
@@ -371,20 +446,20 @@ nav .wrapper, nav .inner-wrapper {
   box-shadow: 4px 4px rgba(0, 83, 127, 0.5);
   margin: 1em 1.2em;
 }
-/* line 200, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 #contact li:hover {
   background: rgba(0, 166, 255, 0.5);
   box-shadow: 4px 4px #00a6ff;
 }
-/* line 203, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 #contact li:hover a:link, #contact li:hover a:visited, #contact li:hover a:focus {
   color: #fff;
 }
-/* line 205, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 #contact li:hover a:hover {
   color: #fff;
 }
-/* line 210, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 #contact a:link, #contact a:visited, #contact a:focus {
   color: #4cc0ff;
   text-decoration: none;
@@ -394,7 +469,7 @@ nav .wrapper, nav .inner-wrapper {
   text-shadow: 1px 1px 1px #0084cc;
 }
 
-/* line 221, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 li.linkedin a {
   background: url(../images/linkedin.png) no-repeat 0 0;
   padding-left: 1.4em;
@@ -402,7 +477,7 @@ li.linkedin a {
   background-size: 1.1em;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 li.twitter a {
   background: url(../images/twitter.png) no-repeat 0 0;
   padding-left: 1.4em;
@@ -410,7 +485,7 @@ li.twitter a {
   background-size: 1.1em;
 }
 
-/* line 230, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 li.github a {
   background: url(../images/github4.png) no-repeat 0 0;
   padding-left: 1.4em;
@@ -418,7 +493,7 @@ li.github a {
   background-size: 1.1em;
 }
 
-/* line 234, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 li.mail a {
   background: url(../images/envelop.png) no-repeat 0 0;
   padding-left: 1.4em;
@@ -426,21 +501,21 @@ li.mail a {
   background-size: 1.1em;
 }
 
-/* line 239, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 section h1, #intro h1, #work h1, #freetime h1, #contact h1 {
   font-size: 150%;
   line-height: 1.6em;
   font-family: "Patua One", serif;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   font-size: 120%;
   line-height: 1.4em;
   font-family: "Patua One", serif;
 }
 
-/* line 252, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 .wrapper, .inner-wrapper {
   max-width: 800px;
   margin: 0px auto 1em;
@@ -449,21 +524,21 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   padding: 1em 0.5em;
 }
 
-/* line 260, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .wrapper.title, .title.inner-wrapper {
   background: rgba(0, 0, 0, 0.6);
   box-shadow: -5px 0px rgba(0, 0, 0, 0.8);
 }
-/* line 263, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .wrapper.title h1, .title.inner-wrapper h1 {
   color: #fff;
 }
-/* line 266, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .wrapper.title h2, .title.inner-wrapper h2 {
   color: #base-color;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 #intro .wrapper.content img, #intro .content.inner-wrapper img {
   width: 140px;
   border-radius: 50%;
@@ -471,38 +546,38 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   transition: all 0.3s ease-in;
 }
 
-/* line 278, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .wrapper p, .inner-wrapper p {
   line-height: 1.5em;
   font-size: 120%;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .inner-wrapper {
   box-shadow: -5px 0px rgba(0, 0, 0, 0.8);
   margin: 1em 2em;
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 288, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .inner-wrapper a:link, .inner-wrapper a:visited, .inner-wrapper a:focus {
   color: #fff;
   text-decoration: none;
 }
-/* line 292, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 .inner-wrapper h3 {
   font-family: "Patua One", serif;
   font-weight: 700;
   font-size: 110%;
 }
-/* line 297, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .inner-wrapper p {
   font-family: "PT Sans", sans-serif;
 }
-/* line 300, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .inner-wrapper img {
   max-width: 75%;
 }
-/* line 303, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 .inner-wrapper div.link {
   background: rgba(38, 96, 127, 0.5);
   color: #fff;
@@ -512,7 +587,7 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   border: 1px solid rgba(38, 96, 127, 0.5);
   max-height: 2.5em;
 }
-/* line 312, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .inner-wrapper div.link:hover {
   border: 1px solid rgba(38, 96, 127, 0.5);
   background: #00537f;
@@ -520,12 +595,12 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   border: 1px solid rgba(38, 96, 127, 0.5);
   cursor: pointer;
 }
-/* line 318, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 .inner-wrapper div.link:hover a:link, .inner-wrapper div.link:hover a:visited, .inner-wrapper div.link:hover a:focus {
   color: #fff;
   font-weight: 700;
 }
-/* line 325, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .inner-wrapper ul.detail li.detail-content {
   background-color: rgba(0, 166, 255, 0.5);
   color: #fff;
@@ -533,52 +608,52 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   margin: 1em;
   max-height: 300px;
 }
-/* line 333, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 .inner-wrapper ul.detail .flex {
   display: flex;
 }
-/* line 338, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .inner-wrapper .half {
   max-width: 45%;
 }
-/* line 341, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .inner-wrapper .list-image {
   float: right;
   max-width: 45%;
   padding-right: 2em;
 }
-/* line 345, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .inner-wrapper .list-image img {
   max-width: 200px;
   text-align: right;
 }
 
-/* line 352, ../sass/style.scss */
+/* line 388, ../sass/style.scss */
 .hidden {
   display: none;
 }
 
-/* line 356, ../sass/style.scss */
+/* line 392, ../sass/style.scss */
 .work, .websites, .design, .various {
   list-style: outside;
   text-indent: 0;
   margin-left: 3em;
 }
 
-/* line 365, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .websites span {
-  color: #4cc0ff;
+  color: #cc225a;
   font-size: 135%;
 }
 
-/* line 374, ../sass/style.scss */
+/* line 410, ../sass/style.scss */
 .design span {
-  color: #4cc0ff;
+  color: #cc225a;
   font-size: 135%;
 }
 
-/* line 382, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .various span {
-  color: #4cc0ff;
+  color: #cc225a;
   font-size: 135%;
 }
