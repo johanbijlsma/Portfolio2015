@@ -91,7 +91,7 @@ nav{
         color: $accent-color-red;
       }
       ul{
-        li{
+        li.tag{
           @include contact-links;
           color: $base-color;
           font-family: $PTsans;

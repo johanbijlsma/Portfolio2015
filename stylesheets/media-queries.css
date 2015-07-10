@@ -14,25 +14,9 @@
   #work .inner-wrapper .list-image {
     float: none;
   }
-<<<<<<< HEAD
-
-  /* line 17, ../sass/media-queries.scss */
-  .inner-wrapper div.link strong {
-    display: none;
-  }
-
-  /* line 20, ../sass/media-queries.scss */
-  .inner-wrapper ul.detail .flex {
-    display: block;
-  }
-}
-@media (min-width: 640px) {
-  /* line 27, ../sass/media-queries.scss */
-=======
 }
 @media (min-width: 640px) {
   /* line 21, ../sass/media-queries.scss */
->>>>>>> master
   #intro .content img {
     width: 195px;
     border-radius: 5%;
@@ -41,20 +25,12 @@
   }
 }
 @media (max-width: 480px) {
-<<<<<<< HEAD
-  /* line 39, ../sass/media-queries.scss */
-=======
   /* line 35, ../sass/media-queries.scss */
->>>>>>> master
   section#intro {
     min-height: 20em;
   }
 
-<<<<<<< HEAD
-  /* line 43, ../sass/media-queries.scss */
-=======
   /* line 39, ../sass/media-queries.scss */
->>>>>>> master
   #work .inner-wrapper .list-image img {
     max-width: 120px;
   }
