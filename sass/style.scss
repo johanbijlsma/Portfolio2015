@@ -1,6 +1,5 @@
 @import "base.scss";
 
-
 strong{
   font-weight: 900;
 }
@@ -81,7 +80,7 @@ nav{
 #intro{
   @extend section;
   background-color: $BGbase-color;
-  background: url(../images/clouds.jpg) top center;
+  background: url(../images/clouds-compressor.jpg) top center;
   background-size: cover;
   color: #fff;
     h2{
@@ -92,7 +91,7 @@ nav{
         color: $accent-color-red;
       }
       ul{
-        li{
+        li.tag{
           @include contact-links;
           color: $base-color;
           font-family: $PTsans;
