@@ -23,15 +23,38 @@
     border: 1px #fff solid;
     transition: all 0.3s ease-in;
   }
+
+  /* line 30, ../sass/media-queries.scss */
+  li.detail-content {
+    position: relative;
+    min-height: 300px;
+  }
+
+  /* line 34, ../sass/media-queries.scss */
+  .inner-wrapper div.link.inner {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  /* line 39, ../sass/media-queries.scss */
+  .flex img {
+    background-size: image-width;
+    max-width: 100%;
+  }
 }
 @media (max-width: 480px) {
-  /* line 35, ../sass/media-queries.scss */
+  /* line 48, ../sass/media-queries.scss */
   section#intro {
     min-height: 20em;
   }
 
-  /* line 39, ../sass/media-queries.scss */
+  /* line 52, ../sass/media-queries.scss */
   #work .inner-wrapper .list-image img {
     max-width: 120px;
+  }
+
+  /* line 55, ../sass/media-queries.scss */
+  .inner-wrapper img {
+    margin-left: -40px;
   }
 }

@@ -88,16 +88,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border: 1px #fff solid;
     transition: all 0.3s ease-in;
   }
+
+  /* line 30, ../sass/media-queries.scss */
+  li.detail-content {
+    position: relative;
+    min-height: 300px;
+  }
+
+  /* line 34, ../sass/media-queries.scss */
+  .inner-wrapper div.link.inner {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  /* line 39, ../sass/media-queries.scss */
+  .flex img {
+    background-size: image-width;
+    max-width: 100%;
+  }
 }
 @media (max-width: 480px) {
-  /* line 35, ../sass/media-queries.scss */
+  /* line 48, ../sass/media-queries.scss */
   section#intro, #intro {
     min-height: 20em;
   }
 
-  /* line 39, ../sass/media-queries.scss */
+  /* line 52, ../sass/media-queries.scss */
   #work .inner-wrapper .list-image img {
     max-width: 120px;
+  }
+
+  /* line 55, ../sass/media-queries.scss */
+  .inner-wrapper img {
+    margin-left: -40px;
   }
 }
 /* Welcome to Compass. Use this file to write IE specific override styles.
@@ -520,7 +543,7 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
 }
 /* line 335, ../sass/style.scss */
 .inner-wrapper img {
-  max-width: 75%;
+  max-width: 300px;
 }
 /* line 338, ../sass/style.scss */
 .inner-wrapper div.link {
@@ -550,54 +573,89 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   background-color: rgba(0, 166, 255, 0.5);
   color: #fff;
   padding: 1em 2em 1em 3em;
-  margin: 1em;
-  max-height: 300px;
+  margin-bottom: 30px;
+  min-height: 300px;
 }
 /* line 368, ../sass/style.scss */
 .inner-wrapper ul.detail .flex {
   display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
+<<<<<<< HEAD
 /* line 373, ../sass/style.scss */
 .inner-wrapper .half {
   max-width: 45%;
 }
 /* line 376, ../sass/style.scss */
+=======
+/* line 376, ../sass/style.scss */
+.inner-wrapper .half {
+  max-width: 45%;
+}
+/* line 379, ../sass/style.scss */
+>>>>>>> master
 .inner-wrapper .list-image {
   float: right;
   max-width: 45%;
   padding-right: 2em;
 }
+<<<<<<< HEAD
 /* line 380, ../sass/style.scss */
+=======
+/* line 383, ../sass/style.scss */
+>>>>>>> master
 .inner-wrapper .list-image img {
   max-width: 200px;
   text-align: right;
 }
 
+<<<<<<< HEAD
 /* line 387, ../sass/style.scss */
+=======
+/* line 390, ../sass/style.scss */
+>>>>>>> master
 .hidden {
   display: none;
 }
 
+<<<<<<< HEAD
 /* line 391, ../sass/style.scss */
+=======
+/* line 394, ../sass/style.scss */
+>>>>>>> master
 .work, .websites, .design, .various {
   list-style: outside;
   text-indent: 0;
   margin-left: 3em;
 }
 
+<<<<<<< HEAD
 /* line 400, ../sass/style.scss */
+=======
+/* line 403, ../sass/style.scss */
+>>>>>>> master
 .websites span {
   color: #cc225a;
   font-size: 135%;
 }
 
+<<<<<<< HEAD
 /* line 409, ../sass/style.scss */
+=======
+/* line 412, ../sass/style.scss */
+>>>>>>> master
 .design span {
   color: #cc225a;
   font-size: 135%;
 }
 
+<<<<<<< HEAD
 /* line 417, ../sass/style.scss */
+=======
+/* line 420, ../sass/style.scss */
+>>>>>>> master
 .various span {
   color: #cc225a;
   font-size: 135%;

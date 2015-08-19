@@ -27,6 +27,19 @@
   // #work .inner-wrapper .list-image{
   //   float: none;
   // }
+  li.detail-content{
+    position: relative;
+    min-height: 300px;
+  }
+  .inner-wrapper div.link.inner{
+    position: absolute;
+    bottom: 10px;
+
+  }
+  .flex img{
+    background-size: image-width;
+    max-width: 100%;
+  }
 
 
 }
@@ -38,6 +51,9 @@
   }
   #work .inner-wrapper .list-image img{
       max-width: 120px;
+    }
+    .inner-wrapper img{
+      margin-left: -40px;
     }
 
 

@@ -1,14 +1,26 @@
+// function.js
+
+
+
 $(function() {
 
-	$( "#work div.link.IA" ).click(function() {
+	$( "#work div.link.apps" ).click(function() {
+		  $( "ul.detail.apps" ).slideToggle( "slow" );
+		});
+
+	$( "#work div.link.miedema" ).click(function() {
+		  $( "ul.detail.miedema" ).slideToggle( "slow" );
+		});
+
+		$( "#work div.link.IA" ).click(function() {
 		  $( "ul.detail.IA" ).slideToggle( "slow" );
 		});
+
 
 		$( "#work div.link.CA" ).click(function() {
 		  $( "ul.detail.CA" ).slideToggle( "slow" );
 		});
 	});
-
 
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
@@ -23,7 +35,3 @@ $(document).ready(function(){
 	    });
 	});
 });
-
-
-
-

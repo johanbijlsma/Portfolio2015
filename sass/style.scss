@@ -290,6 +290,7 @@ section h2{
   display: block;
   background: rgba(0,0,0,0.2);
   padding: 1em 0.5em;
+  min-width: 380px;
 }
 
 .wrapper.title{
@@ -333,7 +334,7 @@ section h2{
     font-family: $PTsans;
   }
   img{
-    max-width: 75%;
+    max-width: 300px;
   }
   div.link{
     background: $BGtertiary-color;
@@ -361,12 +362,15 @@ section h2{
         background-color: $BGbase-color;
         color: #fff;
         padding: 1em 2em 1em 3em;
-        margin: 1em;
-        max-height: 300px;
+        margin-bottom: 30px;
+        min-height: 300px;
 
       }
       .flex{
         display: flex;
+            display: -webkit-flex;
+        flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
       }
 
     }
