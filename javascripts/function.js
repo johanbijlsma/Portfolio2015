@@ -35,3 +35,10 @@ $(document).ready(function(){
 	    });
 	});
 });
+
+$(document).ready(function(){
+	$("ul.detail.hidden").css("display","none");
+
+
+});
+
