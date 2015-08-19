@@ -583,79 +583,47 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
 }
-<<<<<<< HEAD
-/* line 373, ../sass/style.scss */
-.inner-wrapper .half {
-  max-width: 45%;
-}
-/* line 376, ../sass/style.scss */
-=======
 /* line 376, ../sass/style.scss */
 .inner-wrapper .half {
   max-width: 45%;
 }
 /* line 379, ../sass/style.scss */
->>>>>>> master
 .inner-wrapper .list-image {
   float: right;
   max-width: 45%;
   padding-right: 2em;
 }
-<<<<<<< HEAD
-/* line 380, ../sass/style.scss */
-=======
 /* line 383, ../sass/style.scss */
->>>>>>> master
 .inner-wrapper .list-image img {
   max-width: 200px;
   text-align: right;
 }
 
-<<<<<<< HEAD
-/* line 387, ../sass/style.scss */
-=======
 /* line 390, ../sass/style.scss */
->>>>>>> master
 .hidden {
   display: none !important;
 }
 
-<<<<<<< HEAD
-/* line 391, ../sass/style.scss */
-=======
 /* line 394, ../sass/style.scss */
->>>>>>> master
 .work, .websites, .design, .various {
   list-style: outside;
   text-indent: 0;
   margin-left: 3em;
 }
 
-<<<<<<< HEAD
-/* line 400, ../sass/style.scss */
-=======
 /* line 403, ../sass/style.scss */
->>>>>>> master
 .websites span {
   color: #cc225a;
   font-size: 135%;
 }
 
-<<<<<<< HEAD
-/* line 409, ../sass/style.scss */
-=======
 /* line 412, ../sass/style.scss */
->>>>>>> master
 .design span {
   color: #cc225a;
   font-size: 135%;
 }
 
-<<<<<<< HEAD
-/* line 417, ../sass/style.scss */
-=======
 /* line 420, ../sass/style.scss */
->>>>>>> master
 .various span {
   color: #cc225a;
   font-size: 135%;
