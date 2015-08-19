@@ -617,7 +617,7 @@ section h2, #intro h2, #work h2, #freetime h2, #contact h2 {
 /* line 390, ../sass/style.scss */
 >>>>>>> master
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 <<<<<<< HEAD
